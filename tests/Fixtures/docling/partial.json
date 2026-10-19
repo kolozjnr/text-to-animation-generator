@@ -1,0 +1,15 @@
+{
+    "schema_name": "DoclingDocument",
+    "version": "1.0.0",
+    "pages": {
+        "1": {
+            "page_no": 1
+        }
+    },
+    "texts": [],
+    "tables": [],
+    "body": {
+        "self_ref": "#/body",
+        "children": []
+    }
+}

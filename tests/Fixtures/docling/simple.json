@@ -1,0 +1,99 @@
+{
+    "schema_name": "DoclingDocument",
+    "version": "1.0.0",
+    "pages": {
+        "1": {
+            "page_no": 1
+        },
+        "2": {
+            "page_no": 2
+        }
+    },
+    "texts": [
+        {
+            "self_ref": "#/texts/0",
+            "label": "title",
+            "level": 0,
+            "text": "Lesson title",
+            "prov": [
+                {
+                    "page_no": 1
+                }
+            ]
+        },
+        {
+            "self_ref": "#/texts/1",
+            "label": "section_header",
+            "level": 1,
+            "text": "Section one",
+            "prov": [
+                {
+                    "page_no": 1
+                }
+            ]
+        },
+        {
+            "self_ref": "#/texts/2",
+            "label": "paragraph",
+            "text": "First paragraph.",
+            "prov": [
+                {
+                    "page_no": 1
+                }
+            ]
+        },
+        {
+            "self_ref": "#/texts/3",
+            "label": "paragraph",
+            "text": "Second page paragraph.",
+            "prov": [
+                {
+                    "page_no": 2
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "self_ref": "#/tables/0",
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 2
+                }
+            ],
+            "data": {
+                "num_rows": 2,
+                "num_cols": 2,
+                "table_cells": [
+                    {
+                        "row_idx": 0,
+                        "col_idx": 0,
+                        "text": "Name",
+                        "column_header": true
+                    },
+                    {
+                        "row_idx": 0,
+                        "col_idx": 1,
+                        "text": "Value",
+                        "column_header": true
+                    },
+                    {
+                        "row_idx": 1,
+                        "col_idx": 0,
+                        "text": "A"
+                    },
+                    {
+                        "row_idx": 1,
+                        "col_idx": 1,
+                        "text": "1"
+                    }
+                ]
+            }
+        }
+    ],
+    "body": {
+        "self_ref": "#/body",
+        "children": []
+    }
+}
